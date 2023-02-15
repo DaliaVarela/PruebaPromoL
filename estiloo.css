@@ -1,0 +1,42 @@
+body{
+    margin:40;
+    padding:0;
+    background: url(imagen/fondo.jpg) no-repeat center top;
+   
+   font-family: sans-serif;
+   background-size: cover;
+   }
+   .login-box{
+   width: 480px;
+height:500px;
+background: rgb(248, 248, 250);
+
+color:rgb(10, 10, 10);
+top:50%;
+left:50%;
+position:absolute;
+transform: translate(-60%, -60%);
+box-sizing: border-box;
+padding: 50px 30px;}
+ 
+.login-box INPUT{
+    width:100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+
+.login-box input[type="password"]{
+    border:none;
+    outline: none;
+    height:40px;
+    background: transparent;
+}
+.login-box input[type="submit"]{
+    border:none;
+    outline: none;
+    height:40px;
+    background-color: rgb(12, 12, 12);
+    color:rgb(250, 244, 247);
+    font-size: 18px;
+    border-radius:20px;
+}
